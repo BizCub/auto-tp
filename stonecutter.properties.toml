@@ -2,12 +2,12 @@
 mod.name="Auto Teleport"
 mod.id="auto_tp"
 mod.version="1.0"
-mod.description="Automatically teleports the player to the target after executing the /locate command"
+mod.description="Automatically teleports the player after executing the /locate command"
 
 ### Publishing
-mod.modrinth="uEiSR0ob"
-mod.curseforge="1252453"
-mod.github="stonecutter-multiloader"
+mod.modrinth="auto-teleport"
+mod.curseforge="1588731"
+mod.github="auto-tp"
 
 ### Gradle
 org.gradle.jvmargs="-Xmx4G"
@@ -20,11 +20,6 @@ net.minecraftforge.gradle.merge-source-sets="true"
 fabric.loom.disableObfuscation="true"
 multiloader.enableAdvancedVersionSearch="true"
 multiloader.editPublishVersions="true"
-
-# Fabric versions see: https://fabricmc.net/develop
-# Forge versions see: https://files.minecraftforge.net
-# NeoForge versions see: https://neoforged.net
-# Extra dependencies see: https://linkie.shedaniel.dev/dependencies
 
 ["26.1.2"]
 pub-end="latest"
