@@ -5,7 +5,7 @@ mod.version="1.0"
 mod.description="Automatically teleports the player after executing the /locate command"
 
 ### Publishing
-mod.modrinth="auto-teleport"
+mod.modrinth="msG9DmoB"
 mod.curseforge="1588731"
 mod.github="auto-tp"
 
