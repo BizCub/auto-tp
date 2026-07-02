@@ -17,9 +17,7 @@ multiloader {
         mappings(loom.officialMojangMappings())
         "forge"("net.minecraftforge:forge:${getDep("forge")}")
         for (dep in deps) dep.configuration(dep.dependency) {
-            for (module in ml.modules) {
-                exclude(module.module)
-            }
+            for (module in eModules) exclude(module.module)
         }
     }
 

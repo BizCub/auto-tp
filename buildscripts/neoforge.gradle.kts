@@ -10,9 +10,7 @@ multiloader {
 
     dependencies {
         for (dep in deps) dep.configuration(dep.dependency) {
-            for (module in ml.modules) {
-                exclude(module.module)
-            }
+            for (module in eModules) exclude(module.module)
         }
     }
 

@@ -12,9 +12,7 @@ multiloader {
         minecraft("com.mojang:minecraft:${mod.mcExact}")
         if (isObfuscated) "mappings"(loom.officialMojangMappings())
         for (dep in deps) add(if (!isObfuscated) dep.configuration else dep.modConfiguration, dep.dependency) {
-            for (module in ml.modules) {
-                exclude(module.module)
-            }
+            for (module in eModules) exclude(module.module)
         }
     }
 

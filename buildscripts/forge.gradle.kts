@@ -15,9 +15,7 @@ multiloader {
         implementation(minecraft.dependency("net.minecraftforge:forge:${getDep("forge")}"))
         if (scp >= "1.21.6") annotationProcessor("net.minecraftforge:eventbus-validator:7.0.0")
         for (dep in deps) dep.configuration(dep.dependency) {
-            for (module in ml.modules) {
-                exclude(module.module)
-            }
+            for (module in eModules) exclude(module.module)
         }
     }
 

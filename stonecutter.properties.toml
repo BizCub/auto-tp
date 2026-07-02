@@ -9,18 +9,7 @@ mod.modrinth="msG9DmoB"
 mod.curseforge="1588731"
 mod.github="auto-tp"
 
-### Gradle
-org.gradle.jvmargs="-Xmx4G"
-org.gradle.parallel="true"
-org.gradle.caching="true"
-org.gradle.daemon="true"
-
-### Other
-net.minecraftforge.gradle.merge-source-sets="true"
-fabric.loom.disableObfuscation="true"
-multiloader.enableAdvancedVersionSearch="true"
-multiloader.editPublishVersions="true"
-
+### Subprojects
 ["26.1.2"]
 pub-end="latest"
 
